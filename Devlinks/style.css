@@ -1,0 +1,26 @@
+body{
+    background-image: url(/assets/Dark-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    
+   
+    /* 
+    background: url(/assets/bg-mobile.jpg) no-repeat top center/cover;
+    backgraund: color imagem repeat position/size
+    */
+}
+
+#container{
+    width: 360px;
+    height: 700px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#profile img {
+    width: 112px;
+    margin: auto;
+    
+
+}

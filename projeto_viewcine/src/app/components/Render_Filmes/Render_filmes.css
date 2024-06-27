@@ -1,0 +1,57 @@
+.Render_filmes_Main{
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.filme{
+    bottom: 0;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.filmeImagem{
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.InfosFilmes{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+    color: white;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.InfosFilmes h1{
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-color: black;
+}
+
+.InfosFilmes p{
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+.shadowMovie{
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0) 100%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

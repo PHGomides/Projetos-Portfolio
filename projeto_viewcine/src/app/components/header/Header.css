@@ -1,0 +1,47 @@
+.HeaderMain{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    z-index: 2;
+  
+}
+
+.HeaderContents{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    
+}
+
+.HeaderContents p{
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.HeaderContents p::before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background:var(--corAzul);
+    position: absolute;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all .5s;
+
+}
+
+.HeaderContents p:hover:before{
+    transform: scaleX(1);
+}
+
+.Logo{
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: white;
+    
+}

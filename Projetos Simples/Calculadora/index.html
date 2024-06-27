@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/050c66ef1c.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="interior">
+            <p class="visor" id="resultado"> </p>
+            
+            <table>
+                <tr>
+                    <td> <button class="bt limpar" onclick=" limpar() " style="width: 106px;"> Limpar </button></td>
+                    <td> <button class="bt deletar" onclick=" deletar() "> <i class="fa-solid fa-delete-left" style="color: #015cf9;"></i> </button></td>
+                    <td> <button class="bt operadores" onclick=" inserir('/')"> <i class="fa-solid fa-divide"></i> </button></td>
+                </tr>
+                <tr>
+                    <td> <button class="bt num" onclick=" inserir('7') "> 7 </button></td>
+                    <td> <button class="bt num" onclick=" inserir('8') "> 8 </button></td>
+                    <td> <button class="bt num" onclick=" inserir('9') "> 9 </button></td>
+                    <td> <button class="bt operadores" onclick=" inserir('*') "> <i class="fa-solid fa-xmark"> </i> </button></td>
+                </tr>
+                <tr>
+                    <td> <button class="bt num" onclick=" inserir('4') "> 4 </button></td>
+                    <td> <button class="bt num" onclick=" inserir('5') "> 5 </button></td>
+                    <td> <button class="bt num" onclick=" inserir('6') "> 6 </button></td>
+                    <td> <button class="bt operadores" onclick=" inserir('-') "> <i class="fa-solid fa-minus"> </i> </button></td>
+                </tr>
+                <tr>
+                    <td> <button class="bt num" onclick=" inserir('1') "> 1 </button></td>
+                    <td> <button class="bt num" onclick=" inserir('2') "> 2 </button></td>
+                    <td> <button class="bt num" onclick=" inserir('3') "> 3 </button></td>
+                    <td> <button class="bt operadores" onclick=" inserir('+') "> <i class="fa-solid fa-plus"> </i> </button></td>
+                </tr>
+                <tr>
+                    <td> <button class="bt num" onclick=" inserir('0') "> 0 </button></td>
+                    <td> <button class="bt num" onclick=" inserir('.') "> . </button></td>
+                    <td> <button class="bt igual" onclick=" confirmar() " style="width: 106px;"> <i class="fa-solid fa-equals"></i> </button></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+</html>
